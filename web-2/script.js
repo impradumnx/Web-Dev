@@ -30,6 +30,6 @@
 //     city : "lucknow",
 //     college : "BBDITM",
 // }
-// for (let key in students){
-//     console.log(key, ":", students[key] );
-// }
+for (let key in students){
+    console.log(key, ":", students[key] );
+}
