@@ -23,13 +23,13 @@
 //     console.log(i);
 //     size += 1;
 // }
-// console.log("size of string is: " , size);
-// let students = {
-//     name: "pradum rathour",
-//     age : 21,
-//     city : "lucknow",
-//     college : "BBDITM",
-// }
+console.log("size of string is: " , size);
+let students = {
+    name: "pradum rathour",
+    age : 21,
+    city : "lucknow",
+    college : "BBDITM",
+}
 for (let key in students){
     console.log(key, ":", students[key] );
 }
